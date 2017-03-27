@@ -2,7 +2,9 @@ JAVA to native integrations
 ===========================
 
 This repository contains examples for usage of native code from java, with several libraries.
-For simplicity no build tool (like maven) is used.
+For simplicity no build tool (like maven) is used, and only linux platform is supported.
+
+[![Build Status](https://travis-ci.org/szymex/java-native-libs-examples.svg?branch=master)](https://travis-ci.org/szymex/java-native-libs-examples)
 
 ## Requirements
 
@@ -13,8 +15,7 @@ For simplicity no build tool (like maven) is used.
 
 ### Build and run
 
-        make all
-        make run
+        make all run
 
 
 ### JNI

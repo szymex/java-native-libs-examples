@@ -1,0 +1,7 @@
+jdk:
+  - oraclejdk8
+
+script: 
+  - "cd jna-helloworld; make all run"
+  - "cd ../jni-helloworld; make all run"
+  - "cd ../bridj-helloworld; make all run"
