@@ -8,7 +8,7 @@ shared:
 	gcc -shared -fPIC -o target/libTest.so src/Test.c
 
 run:
-	cd target;  java -Xms10m -Xmx10m -cp ../../lib/jna-4.3.0.jar:. JnaHelloWorld
+	cd target;  java -cp ../../lib/jna-4.3.0.jar:. JnaHelloWorld
 
 
 clean:

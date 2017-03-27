@@ -8,7 +8,7 @@ shared:
 	gcc -shared -fPIC -o target/libBridjHelloWorld.so src/BridjHelloWorld.c
 
 run:
-	cd target;  java -Xms10m -Xmx10m -cp ../../lib/bridj-0.7.0-unix-only.jar:. BridjHelloWorld
+	cd target;  java -cp ../../lib/bridj-0.7.0-unix-only.jar:. BridjHelloWorld
 
 
 clean:
